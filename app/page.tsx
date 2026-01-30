@@ -27,6 +27,170 @@ import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import Image from 'next/image';
 
+function Header() {
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+      setIsMobileMenuOpen(false);
+    }
+  };
+
+  return (
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        isScrolled
+          ? 'bg-background/95 backdrop-blur-md shadow-md py-3'
+          : 'bg-white/10 backdrop-blur-sm py-4'
+      }`}
+    >
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-between">
+          {/* Logo/Nom */}
+          <button
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            className={`text-lg md:text-xl font-bold transition-colors ${
+              isScrolled ? 'text-foreground' : 'text-white'
+            }`}
+          >
+            Arnaud Elphège
+          </button>
+
+          {/* Navigation Desktop */}
+          <nav className="hidden md:flex items-center gap-8">
+            <button
+              onClick={() => scrollToSection('about')}
+              className={`text-sm font-medium transition-colors hover:text-white ${
+                isScrolled ? 'text-foreground hover:text-[#4A90E2]' : 'text-white/90'
+              }`}
+            >
+              À propos
+            </button>
+            <button
+              onClick={() => scrollToSection('expertise')}
+              className={`text-sm font-medium transition-colors hover:text-white ${
+                isScrolled ? 'text-foreground hover:text-[#4A90E2]' : 'text-white/90'
+              }`}
+            >
+              Expertise
+            </button>
+            <button
+              onClick={() => scrollToSection('experience')}
+              className={`text-sm font-medium transition-colors hover:text-white ${
+                isScrolled ? 'text-foreground hover:text-[#4A90E2]' : 'text-white/90'
+              }`}
+            >
+              Expérience
+            </button>
+            <button
+              onClick={() => scrollToSection('formation')}
+              className={`text-sm font-medium transition-colors hover:text-white ${
+                isScrolled ? 'text-foreground hover:text-[#4A90E2]' : 'text-white/90'
+              }`}
+            >
+              Formation
+            </button>
+            <Button
+              size="sm"
+              className={`${
+                isScrolled
+                  ? 'bg-gradient-to-r from-[#4A90E2] to-[#8B7EC8]'
+                  : 'bg-white/20 hover:bg-white/30'
+              } text-white`}
+              asChild
+            >
+              <a href="mailto:arnaud.elphege@email.fr">
+                <Mail className="mr-2 h-4 w-4" />
+                Contact
+              </a>
+            </Button>
+          </nav>
+
+          {/* Burger Menu Mobile */}
+          <button
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            className={`md:hidden flex flex-col gap-1.5 ${
+              isScrolled ? 'text-foreground' : 'text-white'
+            }`}
+          >
+            <span className={`w-6 h-0.5 transition-all ${isScrolled ? 'bg-foreground' : 'bg-white'} ${isMobileMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
+            <span className={`w-6 h-0.5 transition-all ${isScrolled ? 'bg-foreground' : 'bg-white'} ${isMobileMenuOpen ? 'opacity-0' : ''}`}></span>
+            <span className={`w-6 h-0.5 transition-all ${isScrolled ? 'bg-foreground' : 'bg-white'} ${isMobileMenuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
+          </button>
+        </div>
+
+        {/* Menu Mobile */}
+        <div
+          className={`md:hidden overflow-hidden transition-all duration-300 ${
+            isMobileMenuOpen ? 'max-h-96 mt-4' : 'max-h-0'
+          }`}
+        >
+          <nav className="flex flex-col gap-4 pb-4">
+            <button
+              onClick={() => scrollToSection('about')}
+              className={`text-sm font-medium text-left transition-colors ${
+                isScrolled ? 'text-foreground hover:text-[#4A90E2]' : 'text-white/90 hover:text-white'
+              }`}
+            >
+              À propos
+            </button>
+            <button
+              onClick={() => scrollToSection('expertise')}
+              className={`text-sm font-medium text-left transition-colors ${
+                isScrolled ? 'text-foreground hover:text-[#4A90E2]' : 'text-white/90 hover:text-white'
+              }`}
+            >
+              Expertise
+            </button>
+            <button
+              onClick={() => scrollToSection('experience')}
+              className={`text-sm font-medium text-left transition-colors ${
+                isScrolled ? 'text-foreground hover:text-[#4A90E2]' : 'text-white/90 hover:text-white'
+              }`}
+            >
+              Expérience
+            </button>
+            <button
+              onClick={() => scrollToSection('formation')}
+              className={`text-sm font-medium text-left transition-colors ${
+                isScrolled ? 'text-foreground hover:text-[#4A90E2]' : 'text-white/90 hover:text-white'
+              }`}
+            >
+              Formation
+            </button>
+            <Button
+              size="sm"
+              className={`${
+                isScrolled
+                  ? 'bg-gradient-to-r from-[#4A90E2] to-[#8B7EC8]'
+                  : 'bg-white/20 hover:bg-white/30'
+              } text-white w-full`}
+              asChild
+            >
+              <a href="mailto:arnaud.elphege@email.fr">
+                <Mail className="mr-2 h-4 w-4" />
+                Contact
+              </a>
+            </Button>
+          </nav>
+        </div>
+      </div>
+    </header>
+  );
+}
+
 function useInView(threshold = 0.1) {
   const ref = useRef<HTMLDivElement>(null);
   const [isInView, setIsInView] = useState(false);
@@ -191,19 +355,19 @@ function SocialLinksSection() {
     {
       name: "LinkedIn",
       url: "https://linkedin.com/in/arnaudelphege",
-      icon: Linkedin,
+      image: "/linkedin.png",
       description: "Profil professionnel",
     },
     {
       name: "Malt",
       url: "https://malt.fr/profile/arnaudelphege",
-      icon: Briefcase,
+      image: "/malt.png",
       description: "Freelance marketplace",
     },
     {
       name: "Collective",
       url: "https://collective.work/profile/arnaud-elphege",
-      icon: Users,
+      image: "/collective.png",
       description: "Réseau de consultants",
     },
   ];
@@ -226,8 +390,12 @@ function SocialLinksSection() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-[#4A90E2] via-[#8B7EC8] to-[#3DBCB8] opacity-0 transition-opacity duration-300 group-hover:opacity-10" />
               <div className="relative flex items-center gap-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-br from-[#4A90E2] to-[#8B7EC8] text-white">
-                  <link.icon className="h-6 w-6" />
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-transparent p-2 transition-all duration-300 group-hover:bg-gradient-to-br group-hover:from-[#4A90E2] group-hover:to-[#8B7EC8]">
+                  <img
+                    src={link.image}
+                    alt={link.name}
+                    className="h-full w-full object-contain"
+                  />
                 </div>
                 <div>
                   <p className="font-semibold text-card-foreground">
@@ -251,7 +419,7 @@ function AboutSection() {
   const { ref, isInView } = useInView();
 
   return (
-    <section className="bg-background py-20">
+    <section className="bg-background py-20" id="about">
       <div
         ref={ref}
         className={`container mx-auto px-4 transition-all duration-700 ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
@@ -347,7 +515,7 @@ function ExpertiseSection() {
   ];
 
   return (
-    <section className="bg-background py-20">
+    <section className="bg-background py-20" id="expertise">
       <div className="container mx-auto px-4">
         <h2 className="mb-12 text-center text-3xl font-bold text-foreground md:text-4xl">
           Domaines d&apos;expertise
@@ -814,7 +982,7 @@ function ExperienceSection() {
   ];
 
   return (
-    <section className="bg-muted py-20">
+    <section className="bg-muted py-20" id="experience">
       <div className="container mx-auto px-4">
         <div
           ref={ref}
@@ -904,7 +1072,7 @@ function EducationSection() {
   ];
 
   return (
-    <section className="bg-muted py-20">
+    <section className="bg-muted py-20" id="formation">
       <div className="container mx-auto px-4">
         <h2 className="mb-12 text-center text-3xl font-bold text-foreground md:text-4xl">
           Formation
@@ -996,7 +1164,7 @@ function AvailabilitySection() {
     {
       icon: Calendar,
       label: "Disponibilité",
-      value: "Temps partiel 2-3J/semaine jusqu'à mai 2026, puis temps plein",
+      value: "Temps plein",
     },
     {
       icon: Target,
@@ -1060,16 +1228,34 @@ function FooterSection() {
             Disponible pour de nouvelles missions dès maintenant
           </p>
 
-          <Button
-            size="lg"
-            className="mb-8 bg-white text-[#4A90E2] hover:bg-white/90 font-semibold"
-            asChild
-          >
-            <a href="mailto:arnaud.elphege@email.fr">
-              <Mail className="mr-2 h-5 w-5" />
-              Me contacter
-            </a>
-          </Button>
+          <div className="mb-8 flex flex-wrap justify-center gap-4">
+            <Button
+              size="lg"
+              className="bg-white text-[#4A90E2] hover:bg-white/90 font-semibold"
+              asChild
+            >
+              <a
+                href="https://calendly.com/votre-lien-calendly"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Calendar className="mr-2 h-5 w-5" />
+                Réserver un rendez-vous
+              </a>
+            </Button>
+
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-white/40 bg-white/10 text-white hover:bg-white/20 font-semibold"
+              asChild
+            >
+              <a href="mailto:arnaud.elphege@email.fr">
+                <Mail className="mr-2 h-5 w-5" />
+                M'envoyer un email
+              </a>
+            </Button>
+          </div>
 
           <div className="mb-8 flex flex-wrap justify-center gap-6 text-white/80">
             <a
@@ -1097,7 +1283,7 @@ function FooterSection() {
               className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-colors hover:bg-white/20"
             >
               <img
-                src="/linkedin.png"
+                src="/linkedin1.png"
                 alt="LinkedIn"
                 className="h-5 w-5"
               />
@@ -1144,6 +1330,7 @@ function FooterSection() {
 export default function PortfolioPage() {
   return (
     <main className="min-h-screen">
+      <Header />
       <HeroSection />
       <SocialLinksSection />
       <AboutSection />
