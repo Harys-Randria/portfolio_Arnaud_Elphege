@@ -355,7 +355,7 @@ function SocialLinksSection() {
     {
       name: "LinkedIn",
       url: "https://linkedin.com/in/arnaudelphege",
-      image: "/linkedin.png",
+      image: "/linkedin1.png",
       description: "Profil professionnel",
     },
     {
