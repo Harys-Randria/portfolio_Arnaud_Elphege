@@ -1,0 +1,447 @@
+{
+  "nav": {
+    "about": "À propos",
+    "expertise": "Expertise",
+    "experience": "Expérience",
+    "formation": "Formation",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Arnaud Elphège",
+    "title": "Chef de Projet SAP S/4HANA Senior | Consultant IT",
+    "description": "Expert en intégration SAP S/4HANA, transformation digitale et conduite du changement",
+    "contactMe": "Me contacter",
+    "downloadCV": "Télécharger mon CV",
+    "email": "arnaud.elphege@email.fr",
+    "phone": "+33 6 95 98 58 07",
+    "location": "Paris, France"
+  },
+  "social": {
+    "linkedin": {
+      "name": "LinkedIn",
+      "description": "Profil professionnel",
+      "url": "https://www.linkedin.com/in/arnaud-elphege/"
+    },
+    "malt": {
+      "name": "Malt",
+      "description": "Freelance marketplace",
+      "url": "https://malt.fr/profile/arnaudelphege"
+    },
+    "collective": {
+      "name": "Collective",
+      "description": "Réseau de consultants",
+      "url": "https://collective.work/profile/arnaud-elphege"
+    }
+  },
+  "about": {
+    "title": "À propos",
+    "intro": "Chef de projet IT senior avec",
+    "yearsExperience": "5 ans d'expérience",
+    "content": "spécialisé en gestion de projets SAP S/4HANA et transformation digitale. Expert en pilotage de projets d'intégration, conduite du changement et refonte de processus métier. Leadership technique avec coordination d'équipes internationales et gestion de budgets importants",
+    "budget": "(1,5M€/an)",
+    "closing": ". Forte capacité de collaboration inter-équipes, mentoring et accompagnement au changement."
+  },
+  "stats": {
+    "years": {
+      "value": 5,
+      "suffix": "+",
+      "label": "Années d'expérience"
+    },
+    "golive": {
+      "value": 10,
+      "suffix": "+",
+      "label": "Go Live SAP pilotés"
+    },
+    "projects": {
+      "value": 300,
+      "suffix": "+",
+      "label": "Projets accompagnés"
+    },
+    "countries": {
+      "value": 5,
+      "suffix": "",
+      "label": "Pays (coordination internationale)"
+    }
+  },
+  "expertise": {
+    "title": "Domaines d'expertise",
+    "sap": {
+      "title": "SAP S/4HANA & Intégration SI",
+      "description": "Maîtrise complète des projets d'intégration SAP S/4HANA avec pilotage d'interfaces entre multiples outils (Salesforce, Kimble, SuccessFactors, Kyriba, Expensya, ADP, Streamline). Expert en conception de Core Model Interfaces et coordination internationale de chantiers complexes."
+    },
+    "leadership": {
+      "title": "Leadership technique & Gestion de projet",
+      "description": "Expérience avérée en team leadership avec gestion de projets IT end-to-end incluant pilotage de planning, charge et budget. Capacité de mentoring des équipes, coordination internationale et collaboration inter-équipes. Certifications PRINCE2 et PSPO."
+    },
+    "change": {
+      "title": "Conduite du changement & Accompagnement",
+      "description": "Spécialiste de l'accompagnement au changement avec expertise en définition de plans de communication, rédaction de supports de formation et animation d'ateliers. Approche orientée satisfaction client et amélioration continue."
+    }
+  },
+  "skills": {
+    "title": "Compétences techniques",
+    "categories": {
+      "sap": {
+        "title": "SAP & ERP",
+        "skills": [
+          "SAP S/4HANA",
+          "SAP Interfaces",
+          "Core Model Interfaces",
+          "Comptabilité SAP",
+          "Contrôle de gestion",
+          "Trésorerie"
+        ]
+      },
+      "integration": {
+        "title": "Intégration & Outils",
+        "skills": [
+          "Salesforce",
+          "SuccessFactors",
+          "Kyriba",
+          "Expensya",
+          "ADP",
+          "Kimble",
+          "APIs",
+          "Webservices",
+          "Streamline",
+          "BTP/CPI"
+        ]
+      },
+      "project": {
+        "title": "Gestion de projet",
+        "skills": [
+          "PRINCE2",
+          "PSPO",
+          "Planning et budget",
+          "Team leadership",
+          "Reporting",
+          "Cadrage",
+          "Coordination internationale"
+        ]
+      },
+      "change": {
+        "title": "Conduite du changement",
+        "skills": [
+          "Change management",
+          "Formation",
+          "Ateliers",
+          "Communication",
+          "Stakeholder management",
+          "E-learning"
+        ]
+      }
+    }
+  },
+  "experience": {
+    "title": "Expérience professionnelle",
+    "subtitle": "Plus de 5 ans d'expérience en gestion de projets IT, transformation digitale et conduite du changement",
+    "featuredBadge": "Mission phare",
+    "keyAchievements": "Réalisations clés",
+    "experiences": {
+      "talan": {
+        "company": "Talan",
+        "department": "DSI",
+        "period": "Mars 2024 – Janvier 2026",
+        "role": "Senior SAP Integration Project Manager",
+        "location": "Paris, France",
+        "context": "Talan est un cabinet de conseil comptant plus de 6000 consultants dans 20 pays. Pilotage du déploiement international de SAP S/4HANA pour l'ensemble des entités du groupe (France, UK, Canada, USA, Suisse) visant l'amélioration des processus comptables et la dématérialisation des factures.",
+        "achievements": [
+          "Pilotage du planning, charge et budget de 1,5M€/an avec réduction des coûts de 15%",
+          "Coordination internationale du chantier Interfaces (5 pays, 21 entités légales)",
+          "Déploiement du Core Model Interfaces entre Salesforce, SuccessFactors, Kyriba, Expensya et SAP",
+          "Encadrement de 8 développeurs avec validation specs et quality monitoring",
+          "15 interfaces SAP mises en place avec réduction du time-to-market de 20%"
+        ],
+        "technologies": [
+          "SAP S/4HANA",
+          "Salesforce",
+          "SuccessFactors",
+          "Kyriba",
+          "Expensya",
+          "ADP",
+          "Kimble",
+          "APIs"
+        ],
+        "featured": true
+      },
+      "metpark": {
+        "company": "Metpark",
+        "department": "Direction Marketing",
+        "period": "Janvier 2024 – Mars 2024",
+        "role": "Digital Strategy Consultant",
+        "location": "Bordeaux, France",
+        "context": "Metpark, gestionnaire du réseau de stationnement de Bordeaux Métropole. Mission de refonte de la stratégie de digitalisation pour optimiser les parcours client front-office et back-office.",
+        "achievements": [
+          "Analyse stratégique avec benchmark des concurrents",
+          "Customer journey mapping via interviews et ateliers de co-construction",
+          "Définition du parcours client cible et macro-fonctionnalités",
+          "Roadmap value-oriented avec priorisation des actions à fort impact business"
+        ],
+        "technologies": [
+          "Customer Journey Mapping",
+          "Benchmark",
+          "Strategic Analysis",
+          "Digital Transformation"
+        ],
+        "featured": false
+      },
+      "sncf": {
+        "company": "SNCF Réseau",
+        "department": "Service Réclamations et Sinistres",
+        "period": "Février 2023 – Septembre 2023",
+        "role": "Business Process Consultant",
+        "location": "Paris, France",
+        "context": "SNCF Réseau, gestionnaire du réseau ferré national français avec plus de 42 clients. Optimisation du service Réclamations et Sinistres traitant les contestations et indemnisations clients.",
+        "achievements": [
+          "Optimisation des processus avec amélioration de l'efficacité de 30%",
+          "Rédaction de modes opératoires sur SI et processus métier",
+          "Gestion des réclamations grands comptes (contestations et indemnisations)",
+          "Suivi et analyse des KPI pour amélioration continue"
+        ],
+        "technologies": [
+          "Process Optimization",
+          "KPI Monitoring",
+          "Stakeholder Management",
+          "Documentation"
+        ],
+        "featured": false
+      },
+      "urssaf_crpcen": {
+        "company": "Urssaf Caisse Nationale",
+        "department": "Direction Transferts - CRPCEN",
+        "period": "Septembre 2021 – Janvier 2023",
+        "role": "Change Management Consultant",
+        "location": "Paris, France",
+        "context": "Transfert du recouvrement des cotisations de la CRPCEN (Caisse de retraite des clercs et employés de notaires) vers les Urssaf au 1er janvier 2023. Accompagnement au changement majeur pour acculturer les gestionnaires.",
+        "achievements": [
+          "Plan d'accompagnement complet pour transfert CRPCEN vers régime général",
+          "Identification des partenaires et actions de facilitation du transfert",
+          "Rédaction de supports de formation pour référents Urssaf et partenaires",
+          "Ateliers bi-mensuels pour suivi d'avancement et gestion anomalies",
+          "Documentation complète (cahiers des charges, modes opératoires, FAQ)"
+        ],
+        "technologies": [
+          "Change Management",
+          "Training",
+          "Stakeholder Management",
+          "Workshop Facilitation"
+        ],
+        "featured": false
+      },
+      "urssaf_bonus": {
+        "company": "Urssaf Caisse Nationale",
+        "department": "Direction Transferts - Bonus-Malus",
+        "period": "Septembre 2021 – Janvier 2023",
+        "role": "Change Management & Training Consultant",
+        "location": "Paris, France",
+        "context": "Dispositif Bonus-Malus de l'Assurance chômage visant à lutter contre le recours abusif aux contrats courts. Accompagnement au changement avec formation des référents et gestion des contestations.",
+        "achievements": [
+          "Conception d'un e-learning suite au recueil des besoins agents Urssaf",
+          "Plan d'accompagnement et webinaires bi-mensuels pour 150+ référents",
+          "Suivi qualitatif et quantitatif des contestations (classification, réponses, anomalies)",
+          "Documentation complète (modes opératoires IHM Pora, scripts téléphoniques)",
+          "Réduction des délais de 25%"
+        ],
+        "technologies": [
+          "E-learning",
+          "IHM Pora",
+          "Webinaires",
+          "Quality Monitoring",
+          "Change Management"
+        ],
+        "featured": false
+      },
+      "defense_dirisi": {
+        "company": "Ministère des Armées",
+        "department": "DIRISI",
+        "period": "Avril 2021 – Août 2021",
+        "role": "Project Management Office Consultant",
+        "location": "Paris, France",
+        "context": "Direction Interarmées des Réseaux d'Infrastructure et des Systèmes d'Information. Appui au pilotage de la réorganisation interne avec accompagnement de 300+ projets IT dans leurs passages de jalons.",
+        "achievements": [
+          "Pilotage de 300+ projets IT avec reporting structuré aux directions",
+          "Organisation des COMEP pour passages de jalons (pré-production, production, exploitation)",
+          "Refonte des processus internes suite aux instructions ministérielles",
+          "Formalisation de templates et mise à disposition pour COMEP",
+          "Mentoring des chefs de projet avec suivi individuel"
+        ],
+        "technologies": [
+          "PMO",
+          "Project Governance",
+          "Process Optimization",
+          "Reporting",
+          "Defense Sector"
+        ],
+        "featured": false
+      },
+      "justice": {
+        "company": "Ministère de la Justice",
+        "department": "Direction de l'Administration Pénitentiaire",
+        "period": "Mai 2020 – Octobre 2020",
+        "role": "Business Analyst Junior",
+        "location": "Paris, France",
+        "context": "Direction de l'Administration Pénitentiaire. Refonte du SI APPI visant le suivi et l'insertion des Personnes Placées Sous Main de Justice (PPSMJ) pour améliorer l'utilisation du système.",
+        "achievements": [
+          "Recueil des besoins via ateliers avec utilisateurs métier",
+          "Rédaction des études d'opportunité pour validation stratégique",
+          "Définition des processus métier optimisés et macro-fonctionnalités",
+          "Accompagnement au changement pour adoption du nouveau SI"
+        ],
+        "technologies": [
+          "Requirements Gathering",
+          "Business Case",
+          "Process Design",
+          "Change Management"
+        ],
+        "featured": false
+      },
+      "defense_dga": {
+        "company": "Ministère des Armées",
+        "department": "Direction Générale de l'Armement",
+        "period": "Septembre 2020 – Octobre 2020",
+        "role": "Strategic Analyst Junior",
+        "location": "Paris, France",
+        "context": "Étude comparative entre la BITD (Base Industrielle et Technologique de Défense) américaine et française pour protéger et renforcer la BITD nationale avec recommandations à la DGA.",
+        "achievements": [
+          "Cartographie des dispositifs de protection de la BITD française",
+          "Analyse comparée BITD américaine et française avec identification des best practices",
+          "Entretiens avec industriels de la défense pour recueil des enjeux",
+          "Recommandations stratégiques pour la DGA"
+        ],
+        "technologies": [
+          "Strategic Analysis",
+          "Benchmark",
+          "Stakeholder Interviews",
+          "Defense Sector"
+        ],
+        "featured": false
+      },
+      "interface": {
+        "company": "Interface Sciences Po Toulouse Junior Conseil",
+        "department": "",
+        "period": "Janvier 2019 – Décembre 2019",
+        "role": "Quality & Audit Manager",
+        "location": "Toulouse, France",
+        "context": "Junior entreprise de Sciences Po Toulouse. Formalisation des processus de suivi d'études pour améliorer le fonctionnement et la qualité des missions avec préparation de l'audit annuel.",
+        "achievements": [
+          "Formalisation des processus de suivi d'études pour amélioration qualité",
+          "Rédaction et contrôle de l'ensemble des documents de mission",
+          "Accompagnement de 15 consultants lors des missions",
+          "Préparation et organisation de l'audit annuel",
+          "Prospection commerciale et formation sur cadre légal"
+        ],
+        "technologies": [
+          "Quality Management",
+          "Process Optimization",
+          "Audit",
+          "Mentoring"
+        ],
+        "featured": false
+      },
+      "toulouse": {
+        "company": "Toulouse Métropole",
+        "department": "Évaluation des Politiques Publiques",
+        "period": "Septembre 2018 – Mai 2019",
+        "role": "Public Policy Analyst Junior",
+        "location": "Toulouse, France",
+        "context": "Plan Climat Air et Énergie Territoriale (PCAET) de Toulouse Métropole (2018-2023). Suivi et évaluation du PCAET via la définition d'indicateurs et construction d'un tableau de bord de pilotage.",
+        "achievements": [
+          "Élaboration d'un tableau de bord de suivi du PCAET",
+          "Définition d'indicateurs avec 20 chefs de projet via ateliers collaboratifs",
+          "Étude comparative sur la participation citoyenne dans l'évaluation PCAET",
+          "Recommandations stratégiques pour amélioration du suivi"
+        ],
+        "technologies": [
+          "Performance Monitoring",
+          "KPI Definition",
+          "Workshop Facilitation",
+          "Public Policy"
+        ],
+        "featured": false
+      }
+    }
+  },
+  "references": {
+    "title": "Références clés",
+    "list": [
+      "Talan",
+      "SNCF Réseau",
+      "Urssaf Caisse Nationale",
+      "Ministère des Armées (DIRISI)",
+      "Ministère de la Justice"
+    ]
+  },
+  "education": {
+    "title": "Formation",
+    "degrees": [
+      {
+        "degree": "Master 2 Conseil et Expertise en Action Publique",
+        "institution": "Sciences Po Toulouse",
+        "year": "2020"
+      },
+      {
+        "degree": "Programme Erasmus",
+        "institution": "University of Jyväskylä, Finlande",
+        "year": "2018"
+      },
+      {
+        "degree": "Bachelor Sciences Politiques",
+        "institution": "Sciences Po Toulouse",
+        "year": "2018"
+      }
+    ]
+  },
+  "languages": {
+    "title": "Langues",
+    "list": [
+      {
+        "name": "Français",
+        "level": 100,
+        "description": "Langue maternelle"
+      },
+      {
+        "name": "Anglais",
+        "level": 90,
+        "description": "Professionnel à fluent"
+      },
+      {
+        "name": "Espagnol",
+        "level": 70,
+        "description": "Avancé"
+      }
+    ]
+  },
+  "availability": {
+    "title": "Disponibilité & Préférences",
+    "items": [
+      {
+        "label": "TJM",
+        "value": "700€"
+      },
+      {
+        "label": "Mode de travail",
+        "value": "Full Remote exclusivement"
+      },
+      {
+        "label": "Disponibilité",
+        "value": "Temps plein"
+      },
+      {
+        "label": "Types de missions",
+        "value": "Création, Refonte, Maintenance évolutive, Intégration équipe"
+      },
+      {
+        "label": "Secteurs",
+        "value": "DSI, ESN, Grandes entreprises"
+      }
+    ]
+  },
+  "footer": {
+    "title": "Démarrons votre projet",
+    "subtitle": "Disponible pour de nouvelles missions dès maintenant",
+    "bookCall": "Réserver un rendez-vous",
+    "sendEmail": "M'envoyer un email",
+    "calendlyUrl": "https://calendly.com/votre-lien-calendly",
+    "rights": "© 2026 Arnaud Elphège. Tous droits réservés."
+  }
+}

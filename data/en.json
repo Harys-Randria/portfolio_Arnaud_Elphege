@@ -1,0 +1,447 @@
+{
+  "nav": {
+    "about": "About",
+    "expertise": "Expertise",
+    "experience": "Experience",
+    "formation": "Education",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Arnaud Elphège",
+    "title": "Senior SAP S/4HANA Project Manager | IT Consultant",
+    "description": "Expert in SAP S/4HANA integration, digital transformation, and change management",
+    "contactMe": "Contact me",
+    "downloadCV": "Download my resume",
+    "email": "arnaud.elphege@email.fr",
+    "phone": "+33 6 95 98 58 07",
+    "location": "Paris, France"
+  },
+  "social": {
+    "linkedin": {
+      "name": "LinkedIn",
+      "description": "Professional profile",
+      "url": "https://www.linkedin.com/in/arnaud-elphege/"
+    },
+    "malt": {
+      "name": "Malt",
+      "description": "Freelance marketplace",
+      "url": "https://malt.fr/profile/arnaudelphege"
+    },
+    "collective": {
+      "name": "Collective",
+      "description": "Consultant network",
+      "url": "https://collective.work/profile/arnaud-elphege"
+    }
+  },
+  "about": {
+    "title": "About me",
+    "intro": "Senior IT project manager with",
+    "yearsExperience": "5 years of experience",
+    "content": "specializing in SAP S/4HANA project management and digital transformation. Expert in integration project leadership, change management, and business process redesign. Technical leadership with international team coordination and significant budget management",
+    "budget": "(€1.5M/year)",
+    "closing": ". Strong inter-team collaboration skills, mentoring, and change support capabilities."
+  },
+  "stats": {
+    "years": {
+      "value": 5,
+      "suffix": "+",
+      "label": "Years of experience"
+    },
+    "golive": {
+      "value": 10,
+      "suffix": "+",
+      "label": "SAP Go Lives managed"
+    },
+    "projects": {
+      "value": 300,
+      "suffix": "+",
+      "label": "Projects supported"
+    },
+    "countries": {
+      "value": 5,
+      "suffix": "",
+      "label": "Countries (international coordination)"
+    }
+  },
+  "expertise": {
+    "title": "Areas of expertise",
+    "sap": {
+      "title": "SAP S/4HANA & System Integration",
+      "description": "Comprehensive mastery of SAP S/4HANA integration projects with interface management across multiple tools (Salesforce, Kimble, SuccessFactors, Kyriba, Expensya, ADP, Streamline). Expert in Core Model Interface design and international coordination of complex projects."
+    },
+    "leadership": {
+      "title": "Technical Leadership & Project Management",
+      "description": "Proven experience in team leadership with end-to-end IT project management including schedule, workload, and budget oversight. Team mentoring capabilities, international coordination, and cross-team collaboration. PRINCE2 and PSPO certifications."
+    },
+    "change": {
+      "title": "Change Management & Support",
+      "description": "Change management specialist with expertise in communication plan development, training materials creation, and workshop facilitation. Customer satisfaction-oriented approach and continuous improvement focus."
+    }
+  },
+  "skills": {
+    "title": "Technical skills",
+    "categories": {
+      "sap": {
+        "title": "SAP & ERP",
+        "skills": [
+          "SAP S/4HANA",
+          "SAP Interfaces",
+          "Core Model Interfaces",
+          "SAP Accounting",
+          "Management Control",
+          "Treasury"
+        ]
+      },
+      "integration": {
+        "title": "Integration & Tools",
+        "skills": [
+          "Salesforce",
+          "SuccessFactors",
+          "Kyriba",
+          "Expensya",
+          "ADP",
+          "Kimble",
+          "APIs",
+          "Webservices",
+          "Streamline",
+          "BTP/CPI"
+        ]
+      },
+      "project": {
+        "title": "Project Management",
+        "skills": [
+          "PRINCE2",
+          "PSPO",
+          "Planning and budgeting",
+          "Team leadership",
+          "Reporting",
+          "Project scoping",
+          "International coordination"
+        ]
+      },
+      "change": {
+        "title": "Change Management",
+        "skills": [
+          "Change management",
+          "Training",
+          "Workshops",
+          "Communication",
+          "Stakeholder management",
+          "E-learning"
+        ]
+      }
+    }
+  },
+  "experience": {
+    "title": "Professional experience",
+    "subtitle": "Over 5 years of experience in IT project management, digital transformation, and change management",
+    "featuredBadge": "Key mission",
+    "keyAchievements": "Key achievements",
+    "experiences": {
+      "talan": {
+        "company": "Talan",
+        "department": "IT Department",
+        "period": "March 2024 – January 2026",
+        "role": "Senior SAP Integration Project Manager",
+        "location": "Paris, France",
+        "context": "Talan is a consulting firm with over 6,000 consultants across 20 countries. Led the international SAP S/4HANA deployment for all group entities (France, UK, Canada, USA, Switzerland) aimed at improving accounting processes and invoice digitalization.",
+        "achievements": [
+          "Managed planning, workload, and €1.5M annual budget with 15% cost reduction",
+          "Coordinated international Interface project (5 countries, 21 legal entities)",
+          "Deployed Core Model Interfaces between Salesforce, SuccessFactors, Kyriba, Expensya, and SAP",
+          "Supervised 8 developers with specs validation and quality monitoring",
+          "Implemented 15 SAP interfaces with 20% reduction in time-to-market"
+        ],
+        "technologies": [
+          "SAP S/4HANA",
+          "Salesforce",
+          "SuccessFactors",
+          "Kyriba",
+          "Expensya",
+          "ADP",
+          "Kimble",
+          "APIs"
+        ],
+        "featured": true
+      },
+      "metpark": {
+        "company": "Metpark",
+        "department": "Marketing Department",
+        "period": "January 2024 – March 2024",
+        "role": "Digital Strategy Consultant",
+        "location": "Bordeaux, France",
+        "context": "Metpark manages Bordeaux Métropole's parking network. Digitalization strategy redesign mission to optimize front-office and back-office customer journeys.",
+        "achievements": [
+          "Strategic analysis with competitor benchmarking",
+          "Customer journey mapping via interviews and co-construction workshops",
+          "Definition of target customer journey and macro-functionalities",
+          "Value-oriented roadmap with prioritization of high business impact actions"
+        ],
+        "technologies": [
+          "Customer Journey Mapping",
+          "Benchmark",
+          "Strategic Analysis",
+          "Digital Transformation"
+        ],
+        "featured": false
+      },
+      "sncf": {
+        "company": "SNCF Réseau",
+        "department": "Claims and Incident Service",
+        "period": "February 2023 – September 2023",
+        "role": "Business Process Consultant",
+        "location": "Paris, France",
+        "context": "SNCF Réseau manages France's national railway network with over 42 clients. Optimization of the Claims and Incident Service handling customer disputes and compensation.",
+        "achievements": [
+          "Process optimization with 30% efficiency improvement",
+          "Drafted operating procedures for IT systems and business processes",
+          "Managed key account claims (disputes and compensation)",
+          "KPI monitoring and analysis for continuous improvement"
+        ],
+        "technologies": [
+          "Process Optimization",
+          "KPI Monitoring",
+          "Stakeholder Management",
+          "Documentation"
+        ],
+        "featured": false
+      },
+      "urssaf_crpcen": {
+        "company": "Urssaf National Fund",
+        "department": "Transfer Department - CRPCEN",
+        "period": "September 2021 – January 2023",
+        "role": "Change Management Consultant",
+        "location": "Paris, France",
+        "context": "Transfer of CRPCEN (Notary Clerks and Employees Pension Fund) contribution collection to Urssaf effective January 1, 2023. Major change management initiative to acculturate managers.",
+        "achievements": [
+          "Comprehensive support plan for CRPCEN transfer to general scheme",
+          "Identification of partners and transfer facilitation actions",
+          "Training materials creation for Urssaf representatives and partners",
+          "Bi-monthly workshops for progress tracking and issue management",
+          "Complete documentation (specifications, operating procedures, FAQ)"
+        ],
+        "technologies": [
+          "Change Management",
+          "Training",
+          "Stakeholder Management",
+          "Workshop Facilitation"
+        ],
+        "featured": false
+      },
+      "urssaf_bonus": {
+        "company": "Urssaf National Fund",
+        "department": "Transfer Department - Bonus-Malus",
+        "period": "September 2021 – January 2023",
+        "role": "Change Management & Training Consultant",
+        "location": "Paris, France",
+        "context": "Unemployment insurance Bonus-Malus system aimed at combating abusive use of short-term contracts. Change management with representative training and dispute handling.",
+        "achievements": [
+          "Designed e-learning following Urssaf agent needs assessment",
+          "Support plan and bi-monthly webinars for 150+ representatives",
+          "Qualitative and quantitative dispute monitoring (classification, responses, anomalies)",
+          "Complete documentation (Pora UI operating procedures, phone scripts)",
+          "25% reduction in processing times"
+        ],
+        "technologies": [
+          "E-learning",
+          "Pora UI",
+          "Webinars",
+          "Quality Monitoring",
+          "Change Management"
+        ],
+        "featured": false
+      },
+      "defense_dirisi": {
+        "company": "Ministry of Defense",
+        "department": "DIRISI",
+        "period": "April 2021 – August 2021",
+        "role": "Project Management Office Consultant",
+        "location": "Paris, France",
+        "context": "Joint Directorate of Infrastructure Networks and Information Systems. Support for internal reorganization management with guidance for 300+ IT projects through milestone transitions.",
+        "achievements": [
+          "Managed 300+ IT projects with structured reporting to directorates",
+          "Organized COMEP for milestone transitions (pre-production, production, operations)",
+          "Internal process redesign following ministerial instructions",
+          "Template formalization and distribution for COMEP",
+          "Project manager mentoring with individual follow-up"
+        ],
+        "technologies": [
+          "PMO",
+          "Project Governance",
+          "Process Optimization",
+          "Reporting",
+          "Defense Sector"
+        ],
+        "featured": false
+      },
+      "justice": {
+        "company": "Ministry of Justice",
+        "department": "Prison Administration Department",
+        "period": "May 2020 – October 2020",
+        "role": "Business Analyst Junior",
+        "location": "Paris, France",
+        "context": "Prison Administration Department. APPI IT system redesign aimed at monitoring and reintegrating persons under judicial supervision to improve system usage.",
+        "achievements": [
+          "Requirements gathering through workshops with business users",
+          "Opportunity study drafting for strategic validation",
+          "Definition of optimized business processes and macro-functionalities",
+          "Change management for new IT system adoption"
+        ],
+        "technologies": [
+          "Requirements Gathering",
+          "Business Case",
+          "Process Design",
+          "Change Management"
+        ],
+        "featured": false
+      },
+      "defense_dga": {
+        "company": "Ministry of Defense",
+        "department": "General Directorate of Armaments",
+        "period": "September 2020 – October 2020",
+        "role": "Strategic Analyst Junior",
+        "location": "Paris, France",
+        "context": "Comparative study between American and French DITB (Defense Industrial and Technological Base) to protect and strengthen national DITB with recommendations to DGA.",
+        "achievements": [
+          "Mapping of French DITB protection mechanisms",
+          "Comparative analysis of American and French DITB with best practices identification",
+          "Interviews with defense industry stakeholders for issue collection",
+          "Strategic recommendations for DGA"
+        ],
+        "technologies": [
+          "Strategic Analysis",
+          "Benchmark",
+          "Stakeholder Interviews",
+          "Defense Sector"
+        ],
+        "featured": false
+      },
+      "interface": {
+        "company": "Interface Sciences Po Toulouse Junior Conseil",
+        "department": "",
+        "period": "January 2019 – December 2019",
+        "role": "Quality & Audit Manager",
+        "location": "Toulouse, France",
+        "context": "Sciences Po Toulouse junior enterprise. Study monitoring process formalization to improve operations and mission quality with annual audit preparation.",
+        "achievements": [
+          "Study monitoring process formalization for quality improvement",
+          "Drafted and reviewed all mission documents",
+          "Supported 15 consultants during missions",
+          "Prepared and organized annual audit",
+          "Business development and legal framework training"
+        ],
+        "technologies": [
+          "Quality Management",
+          "Process Optimization",
+          "Audit",
+          "Mentoring"
+        ],
+        "featured": false
+      },
+      "toulouse": {
+        "company": "Toulouse Métropole",
+        "department": "Public Policy Evaluation",
+        "period": "September 2018 – May 2019",
+        "role": "Public Policy Analyst Junior",
+        "location": "Toulouse, France",
+        "context": "Toulouse Métropole Climate Air and Territorial Energy Plan (PCAET) (2018-2023). PCAET monitoring and evaluation through indicator definition and dashboard construction.",
+        "achievements": [
+          "PCAET monitoring dashboard development",
+          "Indicator definition with 20 project managers via collaborative workshops",
+          "Comparative study on citizen participation in PCAET evaluation",
+          "Strategic recommendations for monitoring improvement"
+        ],
+        "technologies": [
+          "Performance Monitoring",
+          "KPI Definition",
+          "Workshop Facilitation",
+          "Public Policy"
+        ],
+        "featured": false
+      }
+    }
+  },
+  "references": {
+    "title": "Key references",
+    "list": [
+      "Talan",
+      "SNCF Réseau",
+      "Urssaf National Fund",
+      "Ministry of Defense (DIRISI)",
+      "Ministry of Justice"
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "degrees": [
+      {
+        "degree": "Master 2 Public Policy Consulting and Expertise",
+        "institution": "Sciences Po Toulouse",
+        "year": "2020"
+      },
+      {
+        "degree": "Erasmus Program",
+        "institution": "University of Jyväskylä, Finland",
+        "year": "2018"
+      },
+      {
+        "degree": "Bachelor in Political Science",
+        "institution": "Sciences Po Toulouse",
+        "year": "2018"
+      }
+    ]
+  },
+  "languages": {
+    "title": "Languages",
+    "list": [
+      {
+        "name": "French",
+        "level": 100,
+        "description": "Native"
+      },
+      {
+        "name": "English",
+        "level": 90,
+        "description": "Professional to fluent"
+      },
+      {
+        "name": "Spanish",
+        "level": 70,
+        "description": "Advanced"
+      }
+    ]
+  },
+  "availability": {
+    "title": "Availability & Preferences",
+    "items": [
+      {
+        "label": "Daily rate",
+        "value": "€700"
+      },
+      {
+        "label": "Work mode",
+        "value": "Full remote exclusively"
+      },
+      {
+        "label": "Availability",
+        "value": "Full-time"
+      },
+      {
+        "label": "Mission types",
+        "value": "Creation, Redesign, Evolutionary maintenance, Team integration"
+      },
+      {
+        "label": "Sectors",
+        "value": "IT Departments, IT Services, Large enterprises"
+      }
+    ]
+  },
+  "footer": {
+    "title": "Let's start your project",
+    "subtitle": "Available for new missions now",
+    "bookCall": "Book a meeting",
+    "sendEmail": "Send me an email",
+    "calendlyUrl": "https://calendly.com/votre-lien-calendly",
+    "rights": "© 2026 Arnaud Elphège. All rights reserved."
+  }
+}
