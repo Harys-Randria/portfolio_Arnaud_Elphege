@@ -122,7 +122,7 @@ function Header({ t }: PortfolioProps) {
                 {t.nav.contact}
               </a>
             </Button>
-            <LanguageSwitcher />
+            <LanguageSwitcher isScrolled={isScrolled} />
           </nav>
 
           {/* Burger Menu Mobile */}
@@ -191,7 +191,7 @@ function Header({ t }: PortfolioProps) {
                 {t.nav.contact}
               </a>
             </Button>
-            <LanguageSwitcher />
+            <LanguageSwitcher isScrolled={isScrolled} />
           </nav>
         </div>
       </div>
